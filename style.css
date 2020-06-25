@@ -1,9 +1,21 @@
+@font-face{
+    font-family: 'Karla';
+    src: url('Karla-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Rubik';
+    src: url("Rubik-Regular.ttf");
+}
+
+.header-type, h1, h2{
+    font-family: Rubik;
+}
 body{
     margin: 0;
-    background-color: #392D40;
+    background-color:#322739 ;
     color: #FFFFFF;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-family: Karla;
 }
 
 #main{
@@ -22,6 +34,8 @@ h1{
     font-size: 57px; 
 }
 
+
+
 #description{
     font-size: 20px;
     line-height: 2rem;
@@ -31,6 +45,7 @@ h1{
 
 #contact{
     margin-top: 50px;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -53,15 +68,19 @@ h1{
    
 }
 
+a{
+    color:#FFCE85;
+}
+
 .project{
     width: 600px;
     height: 160px;
     padding: 40px;
     display: flex;
     flex-direction: column;
-    background-color: #322739;
+    background-color: #392D40;
     margin-bottom: 22px;
-    cursor: pointer;
+    
 }
 
 .technology{
@@ -70,13 +89,13 @@ h1{
 
 .project-name{
     font-size: 42px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .project-description{
-    font-size: 18px;
-    letter-spacing: 0.1em;
-    margin-top: 30px;
+    font-size: 16px;
+    
+    margin-top: 20px;
 }
 
 
